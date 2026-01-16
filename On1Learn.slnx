@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="On1Learn.API/On1Learn.API.csproj" />
+  <Project Path="On1Learn.Application/On1Learn.Application.csproj" />
+  <Project Path="On1Learn.Domain/On1Learn.Domain.csproj" />
+  <Project Path="On1Learn.Infrastructure/On1Learn.Infrastructure.csproj" />
+</Solution>

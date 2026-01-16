@@ -1,0 +1,11 @@
+C:\Backend\On1Learn\On1Learn.Domain\bin\Debug\net8.0\On1Learn.Domain.deps.json
+C:\Backend\On1Learn\On1Learn.Domain\bin\Debug\net8.0\On1Learn.Domain.dll
+C:\Backend\On1Learn\On1Learn.Domain\bin\Debug\net8.0\On1Learn.Domain.pdb
+C:\Backend\On1Learn\On1Learn.Domain\obj\Debug\net8.0\On1Learn.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Backend\On1Learn\On1Learn.Domain\obj\Debug\net8.0\On1Learn.Domain.AssemblyInfoInputs.cache
+C:\Backend\On1Learn\On1Learn.Domain\obj\Debug\net8.0\On1Learn.Domain.AssemblyInfo.cs
+C:\Backend\On1Learn\On1Learn.Domain\obj\Debug\net8.0\On1Learn.Domain.csproj.CoreCompileInputs.cache
+C:\Backend\On1Learn\On1Learn.Domain\obj\Debug\net8.0\On1Learn.Domain.dll
+C:\Backend\On1Learn\On1Learn.Domain\obj\Debug\net8.0\refint\On1Learn.Domain.dll
+C:\Backend\On1Learn\On1Learn.Domain\obj\Debug\net8.0\On1Learn.Domain.pdb
+C:\Backend\On1Learn\On1Learn.Domain\obj\Debug\net8.0\ref\On1Learn.Domain.dll
