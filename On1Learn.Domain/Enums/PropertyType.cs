@@ -10,10 +10,10 @@ namespace On1Learn.Domain.Enums
     {
         Apartment = 1,
         House = 2,
-        Villa  = 3,
+        Villa = 3,
         Office = 4,
         Land = 5,
-        Commercial = 6, 
+        Commercial = 6,
         Farm = 7
     }
 }

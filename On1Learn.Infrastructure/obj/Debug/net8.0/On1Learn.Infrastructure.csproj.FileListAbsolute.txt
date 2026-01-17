@@ -17,3 +17,4 @@ C:\Backend\On1Learn\On1Learn.Infrastructure\obj\Debug\net8.0\refint\On1Learn.Inf
 C:\Backend\On1Learn\On1Learn.Infrastructure\obj\Debug\net8.0\On1Learn.Infrastructure.pdb
 C:\Backend\On1Learn\On1Learn.Infrastructure\obj\Debug\net8.0\On1Learn.Infrastructure.genruntimeconfig.cache
 C:\Backend\On1Learn\On1Learn.Infrastructure\obj\Debug\net8.0\ref\On1Learn.Infrastructure.dll
+C:\Backend\On1Learn\On1Learn.Infrastructure\obj\Debug\net8.0\On1Learn.Infrastructure.sourcelink.json

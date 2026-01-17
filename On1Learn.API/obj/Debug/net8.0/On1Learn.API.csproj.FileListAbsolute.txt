@@ -134,3 +134,4 @@ C:\Backend\On1Learn\On1Learn.API\obj\Debug\net8.0\refint\On1Learn.API.dll
 C:\Backend\On1Learn\On1Learn.API\obj\Debug\net8.0\On1Learn.API.pdb
 C:\Backend\On1Learn\On1Learn.API\obj\Debug\net8.0\On1Learn.API.genruntimeconfig.cache
 C:\Backend\On1Learn\On1Learn.API\obj\Debug\net8.0\ref\On1Learn.API.dll
+C:\Backend\On1Learn\On1Learn.API\obj\Debug\net8.0\On1Learn.API.sourcelink.json

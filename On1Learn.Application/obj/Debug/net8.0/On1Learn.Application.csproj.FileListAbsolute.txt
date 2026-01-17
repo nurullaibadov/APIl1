@@ -13,3 +13,4 @@ C:\Backend\On1Learn\On1Learn.Application\obj\Debug\net8.0\On1Learn.Application.d
 C:\Backend\On1Learn\On1Learn.Application\obj\Debug\net8.0\refint\On1Learn.Application.dll
 C:\Backend\On1Learn\On1Learn.Application\obj\Debug\net8.0\On1Learn.Application.pdb
 C:\Backend\On1Learn\On1Learn.Application\obj\Debug\net8.0\ref\On1Learn.Application.dll
+C:\Backend\On1Learn\On1Learn.Application\obj\Debug\net8.0\On1Learn.Application.sourcelink.json

@@ -3,48 +3,52 @@
   "WorkspaceRootPath": "C:\\Backend\\On1Learn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4D1D5E20-BF31-41A6-8C9E-C11DE17654C0}|On1Learn.Infrastructure\\On1Learn.Infrastructure.csproj|c:\\backend\\on1learn\\on1learn.infrastructure\\migrations\\20260116184646_addtbone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D1D5E20-BF31-41A6-8C9E-C11DE17654C0}|On1Learn.Infrastructure\\On1Learn.Infrastructure.csproj|solutionrelative:on1learn.infrastructure\\migrations\\20260116184646_addtbone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Backend\\On1Learn\\On1Learn.Infrastructure\\Migrations\\20260117190455_addAlltables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:On1Learn.Infrastructure\\Migrations\\20260117190455_addAlltables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65B87520-1EF4-4E37-8BF4-8B01A4C6184B}|On1Learn.API\\On1Learn.API.csproj|c:\\backend\\on1learn\\on1learn.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65B87520-1EF4-4E37-8BF4-8B01A4C6184B}|On1Learn.API\\On1Learn.API.csproj|solutionrelative:on1learn.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{562625D2-66DF-F2C5-3FBC-64B36D64F4F0}|On1Learn.Domain\\On1Learn.Domain.csproj|c:\\backend\\on1learn\\on1learn.domain\\entities\\contactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{562625D2-66DF-F2C5-3FBC-64B36D64F4F0}|On1Learn.Domain\\On1Learn.Domain.csproj|solutionrelative:on1learn.domain\\entities\\contactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65B87520-1EF4-4E37-8BF4-8B01A4C6184B}|On1Learn.API\\On1Learn.API.csproj|c:\\backend\\on1learn\\on1learn.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{65B87520-1EF4-4E37-8BF4-8B01A4C6184B}|On1Learn.API\\On1Learn.API.csproj|solutionrelative:on1learn.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{562625D2-66DF-F2C5-3FBC-64B36D64F4F0}|On1Learn.Domain\\On1Learn.Domain.csproj|c:\\backend\\on1learn\\on1learn.domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{562625D2-66DF-F2C5-3FBC-64B36D64F4F0}|On1Learn.Domain\\On1Learn.Domain.csproj|solutionrelative:on1learn.domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D1D5E20-BF31-41A6-8C9E-C11DE17654C0}|On1Learn.Infrastructure\\On1Learn.Infrastructure.csproj|c:\\backend\\on1learn\\on1learn.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D1D5E20-BF31-41A6-8C9E-C11DE17654C0}|On1Learn.Infrastructure\\On1Learn.Infrastructure.csproj|solutionrelative:on1learn.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{562625D2-66DF-F2C5-3FBC-64B36D64F4F0}|On1Learn.Domain\\On1Learn.Domain.csproj|c:\\backend\\on1learn\\on1learn.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{562625D2-66DF-F2C5-3FBC-64B36D64F4F0}|On1Learn.Domain\\On1Learn.Domain.csproj|solutionrelative:on1learn.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE014DEF-0C3D-4B8C-8AEF-350C63F8E67A}|On1Learn.Domain\\On1Learn.Domain.csproj|c:\\backend\\on1learn\\on1learn.domain\\entities\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE014DEF-0C3D-4B8C-8AEF-350C63F8E67A}|On1Learn.Domain\\On1Learn.Domain.csproj|solutionrelative:on1learn.domain\\entities\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{562625D2-66DF-F2C5-3FBC-64B36D64F4F0}|On1Learn.Domain\\On1Learn.Domain.csproj|c:\\backend\\on1learn\\on1learn.domain\\entities\\propertyimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{562625D2-66DF-F2C5-3FBC-64B36D64F4F0}|On1Learn.Domain\\On1Learn.Domain.csproj|solutionrelative:on1learn.domain\\entities\\propertyimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE014DEF-0C3D-4B8C-8AEF-350C63F8E67A}|On1Learn.Domain\\On1Learn.Domain.csproj|c:\\backend\\on1learn\\on1learn.domain\\entities\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE014DEF-0C3D-4B8C-8AEF-350C63F8E67A}|On1Learn.Domain\\On1Learn.Domain.csproj|solutionrelative:on1learn.domain\\entities\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{562625D2-66DF-F2C5-3FBC-64B36D64F4F0}|On1Learn.Domain\\On1Learn.Domain.csproj|c:\\backend\\on1learn\\on1learn.domain\\entities\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{562625D2-66DF-F2C5-3FBC-64B36D64F4F0}|On1Learn.Domain\\On1Learn.Domain.csproj|solutionrelative:on1learn.domain\\entities\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE014DEF-0C3D-4B8C-8AEF-350C63F8E67A}|On1Learn.Domain\\On1Learn.Domain.csproj|c:\\backend\\on1learn\\on1learn.domain\\enums\\paymenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE014DEF-0C3D-4B8C-8AEF-350C63F8E67A}|On1Learn.Domain\\On1Learn.Domain.csproj|solutionrelative:on1learn.domain\\enums\\paymenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Backend\\On1Learn\\On1Learn.Infrastructure\\Migrations\\20260117190246_addtbsssssssssssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:On1Learn.Infrastructure\\Migrations\\20260117190246_addtbsssssssssssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE014DEF-0C3D-4B8C-8AEF-350C63F8E67A}|On1Learn.Domain\\On1Learn.Domain.csproj|c:\\backend\\on1learn\\on1learn.domain\\enums\\paymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE014DEF-0C3D-4B8C-8AEF-350C63F8E67A}|On1Learn.Domain\\On1Learn.Domain.csproj|solutionrelative:on1learn.domain\\enums\\paymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Backend\\On1Learn\\On1Learn.Infrastructure\\Migrations\\20260117190036_addtbssssssssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:On1Learn.Infrastructure\\Migrations\\20260117190036_addtbssssssssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE014DEF-0C3D-4B8C-8AEF-350C63F8E67A}|On1Learn.Domain\\On1Learn.Domain.csproj|c:\\backend\\on1learn\\on1learn.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE014DEF-0C3D-4B8C-8AEF-350C63F8E67A}|On1Learn.Domain\\On1Learn.Domain.csproj|solutionrelative:on1learn.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{562625D2-66DF-F2C5-3FBC-64B36D64F4F0}|On1Learn.Domain\\On1Learn.Domain.csproj|c:\\backend\\on1learn\\on1learn.domain\\entities\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{562625D2-66DF-F2C5-3FBC-64B36D64F4F0}|On1Learn.Domain\\On1Learn.Domain.csproj|solutionrelative:on1learn.domain\\entities\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE014DEF-0C3D-4B8C-8AEF-350C63F8E67A}|On1Learn.Domain\\On1Learn.Domain.csproj|c:\\backend\\on1learn\\on1learn.domain\\enums\\propertystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE014DEF-0C3D-4B8C-8AEF-350C63F8E67A}|On1Learn.Domain\\On1Learn.Domain.csproj|solutionrelative:on1learn.domain\\enums\\propertystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Backend\\On1Learn\\On1Learn.Infrastructure\\Migrations\\20260117185623_addtbsssssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:On1Learn.Infrastructure\\Migrations\\20260117185623_addtbsssssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE014DEF-0C3D-4B8C-8AEF-350C63F8E67A}|On1Learn.Domain\\On1Learn.Domain.csproj|c:\\backend\\on1learn\\on1learn.domain\\enums\\propertytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE014DEF-0C3D-4B8C-8AEF-350C63F8E67A}|On1Learn.Domain\\On1Learn.Domain.csproj|solutionrelative:on1learn.domain\\enums\\propertytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B7339CD-0014-41AD-7518-72C866D7D28A}|On1Learn.Infrastructure\\On1Learn.Infrastructure.csproj|c:\\backend\\on1learn\\on1learn.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B7339CD-0014-41AD-7518-72C866D7D28A}|On1Learn.Infrastructure\\On1Learn.Infrastructure.csproj|solutionrelative:on1learn.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{562625D2-66DF-F2C5-3FBC-64B36D64F4F0}|On1Learn.Domain\\On1Learn.Domain.csproj|c:\\backend\\on1learn\\on1learn.domain\\enums\\paymenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{562625D2-66DF-F2C5-3FBC-64B36D64F4F0}|On1Learn.Domain\\On1Learn.Domain.csproj|solutionrelative:on1learn.domain\\enums\\paymenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,144 +67,157 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20260116184646_Addtbone.cs",
-              "DocumentMoniker": "C:\\Backend\\On1Learn\\On1Learn.Infrastructure\\Migrations\\20260116184646_Addtbone.cs",
-              "RelativeDocumentMoniker": "On1Learn.Infrastructure\\Migrations\\20260116184646_Addtbone.cs",
-              "ToolTip": "C:\\Backend\\On1Learn\\On1Learn.Infrastructure\\Migrations\\20260116184646_Addtbone.cs",
-              "RelativeToolTip": "On1Learn.Infrastructure\\Migrations\\20260116184646_Addtbone.cs",
+              "Title": "20260117190455_addAlltables.cs",
+              "DocumentMoniker": "C:\\Backend\\On1Learn\\On1Learn.Infrastructure\\Migrations\\20260117190455_addAlltables.cs",
+              "RelativeDocumentMoniker": "On1Learn.Infrastructure\\Migrations\\20260117190455_addAlltables.cs",
+              "ToolTip": "C:\\Backend\\On1Learn\\On1Learn.Infrastructure\\Migrations\\20260117190455_addAlltables.cs",
+              "RelativeToolTip": "On1Learn.Infrastructure\\Migrations\\20260117190455_addAlltables.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T18:46:47.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Backend\\On1Learn\\On1Learn.API\\appsettings.json",
-              "RelativeDocumentMoniker": "On1Learn.API\\appsettings.json",
-              "ToolTip": "C:\\Backend\\On1Learn\\On1Learn.API\\appsettings.json",
-              "RelativeToolTip": "On1Learn.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-16T18:40:24.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Backend\\On1Learn\\On1Learn.API\\Program.cs",
-              "RelativeDocumentMoniker": "On1Learn.API\\Program.cs",
-              "ToolTip": "C:\\Backend\\On1Learn\\On1Learn.API\\Program.cs",
-              "RelativeToolTip": "On1Learn.API\\Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T18:40:19.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Favorite.cs",
-              "DocumentMoniker": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Entities\\Favorite.cs",
-              "RelativeDocumentMoniker": "On1Learn.Domain\\Entities\\Favorite.cs",
-              "ToolTip": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Entities\\Favorite.cs",
-              "RelativeToolTip": "On1Learn.Domain\\Entities\\Favorite.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T18:38:31.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Backend\\On1Learn\\On1Learn.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "On1Learn.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Backend\\On1Learn\\On1Learn.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "On1Learn.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T18:36:45.597Z",
+              "WhenOpened": "2026-01-17T19:04:56.151Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "PaymentType.cs",
-              "DocumentMoniker": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Enums\\PaymentType.cs",
-              "RelativeDocumentMoniker": "On1Learn.Domain\\Enums\\PaymentType.cs",
-              "ToolTip": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Enums\\PaymentType.cs",
-              "RelativeToolTip": "On1Learn.Domain\\Enums\\PaymentType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Title": "20260117190246_addtbsssssssssssss.cs",
+              "DocumentMoniker": "C:\\Backend\\On1Learn\\On1Learn.Infrastructure\\Migrations\\20260117190246_addtbsssssssssssss.cs",
+              "RelativeDocumentMoniker": "On1Learn.Infrastructure\\Migrations\\20260117190246_addtbsssssssssssss.cs",
+              "ToolTip": "C:\\Backend\\On1Learn\\On1Learn.Infrastructure\\Migrations\\20260117190246_addtbsssssssssssss.cs",
+              "RelativeToolTip": "On1Learn.Infrastructure\\Migrations\\20260117190246_addtbsssssssssssss.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T18:27:21.075Z",
+              "WhenOpened": "2026-01-17T19:02:46.861Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "PaymentStatus.cs",
-              "DocumentMoniker": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Enums\\PaymentStatus.cs",
-              "RelativeDocumentMoniker": "On1Learn.Domain\\Enums\\PaymentStatus.cs",
-              "ToolTip": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Enums\\PaymentStatus.cs",
-              "RelativeToolTip": "On1Learn.Domain\\Enums\\PaymentStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "Title": "20260117190036_addtbssssssssss.cs",
+              "DocumentMoniker": "C:\\Backend\\On1Learn\\On1Learn.Infrastructure\\Migrations\\20260117190036_addtbssssssssss.cs",
+              "RelativeDocumentMoniker": "On1Learn.Infrastructure\\Migrations\\20260117190036_addtbssssssssss.cs",
+              "ToolTip": "C:\\Backend\\On1Learn\\On1Learn.Infrastructure\\Migrations\\20260117190036_addtbssssssssss.cs",
+              "RelativeToolTip": "On1Learn.Infrastructure\\Migrations\\20260117190036_addtbssssssssss.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T18:26:33.606Z",
+              "WhenOpened": "2026-01-17T19:00:36.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContactMessage.cs",
+              "DocumentMoniker": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Entities\\ContactMessage.cs",
+              "RelativeDocumentMoniker": "On1Learn.Domain\\Entities\\ContactMessage.cs",
+              "ToolTip": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Entities\\ContactMessage.cs",
+              "RelativeToolTip": "On1Learn.Domain\\Entities\\ContactMessage.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvxkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T18:57:13.034Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "UserRole.cs",
-              "DocumentMoniker": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Enums\\UserRole.cs",
-              "RelativeDocumentMoniker": "On1Learn.Domain\\Enums\\UserRole.cs",
-              "ToolTip": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Enums\\UserRole.cs",
-              "RelativeToolTip": "On1Learn.Domain\\Enums\\UserRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Title": "Favorite.cs",
+              "DocumentMoniker": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Entities\\Favorite.cs",
+              "RelativeDocumentMoniker": "On1Learn.Domain\\Entities\\Favorite.cs",
+              "ToolTip": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Entities\\Favorite.cs",
+              "RelativeToolTip": "On1Learn.Domain\\Entities\\Favorite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T18:26:00.621Z",
+              "WhenOpened": "2026-01-17T18:57:11.209Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PropertyStatus.cs",
-              "DocumentMoniker": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Enums\\PropertyStatus.cs",
-              "RelativeDocumentMoniker": "On1Learn.Domain\\Enums\\PropertyStatus.cs",
-              "ToolTip": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Enums\\PropertyStatus.cs",
-              "RelativeToolTip": "On1Learn.Domain\\Enums\\PropertyStatus.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Entities\\Payment.cs",
+              "RelativeDocumentMoniker": "On1Learn.Domain\\Entities\\Payment.cs",
+              "ToolTip": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Entities\\Payment.cs",
+              "RelativeToolTip": "On1Learn.Domain\\Entities\\Payment.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T18:21:14.541Z",
+              "WhenOpened": "2026-01-17T18:57:09.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PropertyType.cs",
-              "DocumentMoniker": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Enums\\PropertyType.cs",
-              "RelativeDocumentMoniker": "On1Learn.Domain\\Enums\\PropertyType.cs",
-              "ToolTip": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Enums\\PropertyType.cs",
-              "RelativeToolTip": "On1Learn.Domain\\Enums\\PropertyType.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "PropertyImage.cs",
+              "DocumentMoniker": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Entities\\PropertyImage.cs",
+              "RelativeDocumentMoniker": "On1Learn.Domain\\Entities\\PropertyImage.cs",
+              "ToolTip": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Entities\\PropertyImage.cs",
+              "RelativeToolTip": "On1Learn.Domain\\Entities\\PropertyImage.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T18:20:10.257Z",
+              "WhenOpened": "2026-01-17T18:57:04.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "On1Learn.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "On1Learn.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T18:57:00.701Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Entities\\Base\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "On1Learn.Domain\\Entities\\Base\\BaseEntity.cs",
-              "ToolTip": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Entities\\Base\\BaseEntity.cs",
-              "RelativeToolTip": "On1Learn.Domain\\Entities\\Base\\BaseEntity.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA6wBEAAAAAAAAAAAAAAA==",
+              "Title": "Property.cs",
+              "DocumentMoniker": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Entities\\Property.cs",
+              "RelativeDocumentMoniker": "On1Learn.Domain\\Entities\\Property.cs",
+              "ToolTip": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Entities\\Property.cs",
+              "RelativeToolTip": "On1Learn.Domain\\Entities\\Property.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAA7wCoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T18:19:20.993Z",
+              "WhenOpened": "2026-01-17T18:56:45.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20260117185623_addtbsssssss.cs",
+              "DocumentMoniker": "C:\\Backend\\On1Learn\\On1Learn.Infrastructure\\Migrations\\20260117185623_addtbsssssss.cs",
+              "RelativeDocumentMoniker": "On1Learn.Infrastructure\\Migrations\\20260117185623_addtbsssssss.cs",
+              "ToolTip": "C:\\Backend\\On1Learn\\On1Learn.Infrastructure\\Migrations\\20260117185623_addtbsssssss.cs",
+              "RelativeToolTip": "On1Learn.Infrastructure\\Migrations\\20260117185623_addtbsssssss.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T18:56:23.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Backend\\On1Learn\\On1Learn.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "On1Learn.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Backend\\On1Learn\\On1Learn.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "On1Learn.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAhwJEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T18:56:01.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PaymentType.cs",
+              "DocumentMoniker": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Enums\\PaymentType.cs",
+              "RelativeDocumentMoniker": "On1Learn.Domain\\Enums\\PaymentType.cs",
+              "ToolTip": "C:\\Backend\\On1Learn\\On1Learn.Domain\\Enums\\PaymentType.cs",
+              "RelativeToolTip": "On1Learn.Domain\\Enums\\PaymentType.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T18:55:00.671Z",
               "EditorCaption": ""
             }
           ]

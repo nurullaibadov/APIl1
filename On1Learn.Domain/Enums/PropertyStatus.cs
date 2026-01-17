@@ -8,11 +8,11 @@ namespace On1Learn.Domain.Enums
 {
     public enum PropertyStatus
     {
-      ForSale = 1,
-      ForRent = 2,
-      Sold = 3,
-      Rented = 4,
-      Pending = 5,
-      Inactive = 6, 
+         ForSale = 1,
+         ForRent = 2,
+         Sold = 3,
+         Rented = 4,
+         Pending = 5,
+         Inactive = 6
     }
 }
