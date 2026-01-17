@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using On1Learn.Infrastructure.Data;
+using Pomelo.EntityFrameworkCore.MySql.Internal;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,14 +12,20 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // DbContext (MySQL)
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
+builder.Services.AddDbContext<ApplicationDbContext>(opt =>
 {
     var connectionString = builder.Configuration.GetConnectionString("Default");
 
-    options.UseMySql(
-        connectionString,
-        ServerVersion.AutoDetect(connectionString)
-    );
+    opt.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString), mySqlOptions =>
+    {
+        mySqlOptions.MigrationsAssembly("On1Learn.Infrastructure");
+        mySqlOptions.CommandTimeout(60);
+        mySqlOptions.EnableRetryOnFailure(
+            maxRetryCount: 5,
+            maxRetryDelay: TimeSpan.FromSeconds(30),
+            errorNumbersToAdd: null
+            );
+    });
 });
 
 var app = builder.Build();

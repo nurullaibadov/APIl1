@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("On1Learn.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad693ad14490aa2d896a8397f1c2b8aadfdce0de")]
 [assembly: System.Reflection.AssemblyProductAttribute("On1Learn.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("On1Learn.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

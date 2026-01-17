@@ -8,9 +8,9 @@ namespace On1Learn.Domain.Enums
 {
     public enum PaymentType
     {
-        Purchase = 1,
-        RentDeposit = 2,    
-        RentPayment = 3,
-        Commision = 4,  
+      Purchase = 1,
+      RentDeposit = 2,
+      RentPayment = 3,
+      Commision = 4,
     }
 }
