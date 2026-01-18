@@ -9,10 +9,11 @@ namespace On1Learn.Domain.Entities
 {
     public class Favorite : BaseEntity
     {
-        public int UserId { get; set;  }
-        public virtual User User { get; set; }  
-        public int PropertyId { get; set;  }    
+        public int UserId { get; set;  }    
+        public virtual User User { get; set;  } 
+        public int PropertyId { get; set;  }
         public virtual Property Property { get; set; }  
-        public string? Note { get; set;  }      
+        public string? Note { get; set;  }  
     }
 }
+

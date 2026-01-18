@@ -9,11 +9,12 @@ namespace On1Learn.Domain.Entities
 {
     public class PropertyImage : BaseEntity
     {
-        public string ImageUrl { get; set;  }   
-        public string? AltText { get; set;  }
+        public string ImageUrl { get; set;  }       
+        public string? AllText { get; set;  }   
         public int DisplayOrder { get; set;  }  
         public bool IsCover { get; set;  }
-        public int? PropertyId { get; set;  }
-        public virtual Property Property { get; set; }  
+        public int? PropertyId { get; set;  }    
+        public virtual Property Property { get ; set; }     
     }
+
 }
