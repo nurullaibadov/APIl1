@@ -10,19 +10,19 @@ namespace On1Learn.Domain.Entities
 {
     public class Payment : BaseEntity
     {
-        public int? UserId { get; set;  }
-        public virtual User User { get; set; }  
-        public int? PropertyId { get; set;  }
-        public  virtual Property Property { get; set;  }
-        public decimal Amount { get; set; } 
-        public string Currency { get; set; }    
+       public int? UserId { get; set;  } 
+        public virtual User User { get; set;  } 
+        public int? PropertyId { get; set;  }    
+        public virtual Property Property { get; set;  } 
+        public decimal Amount { get; set;  }    
+        public string Currency { get; set;  }
         public PaymentType Type { get; set;  }  
-        public PaymentStatus Status { get; set; }       
-        public string  PaymentMethod { get; set; }  
-        public string? TransactionId { get; set;  }     
-        public string Description { get; set;  }    
-        public DateTime? PaidAt { get; set;  }
+        public PaymentStatus Status { get; set;  }  
+        public string PaymentMethod { get; set;  }  
+        public string? TransactionId { get; set;  } 
+        public string? Description { get; set;  }   
+        public DateTime? PaidAt { get; set; }   
+        public string? ErrorMessage { get; set;  }  
 
-        public string? ErrorMessage { get; set;  }      
     }
 }

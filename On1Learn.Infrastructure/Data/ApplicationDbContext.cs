@@ -16,24 +16,25 @@ namespace On1Learn.Infrastructure.Data
         {
         }
 
-        public DbSet<ContactMessage> Contacts { get; set;  }    
+        public DbSet<User> Users { get; set; }  
+        public DbSet<Property> Properties { get; set;  }    
+        public DbSet<PropertyImage> PropertyImages { get; set;  }
         public DbSet<Favorite> Favorites { get; set;  } 
-        public DbSet<Property> Properties { get; set;  }
-        public DbSet<PropertyImage> PropertyImages { get; set;  }   
-        public DbSet<User> Users { get; set;  } 
         public DbSet<Payment> Payments { get; set;  }
-
+        public DbSet<ContactMessage> ContactMessages { get; set;  }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+
 
             modelBuilder.Entity<User>(e =>
             {
                 e.HasIndex(e => e.Email).IsUnique();
                 e.Property(e => e.Email).IsRequired().HasMaxLength(255);
                 e.Property(e => e.FirstName).IsRequired().HasMaxLength(100);
-                e.Property(e => e.LastName).HasMaxLength(100);
+                e.Property(e => e.LastName).IsRequired().HasMaxLength(100);
                 e.Property(e => e.PasswordHash).IsRequired();
                 e.Property(e => e.PhoneNumber).HasMaxLength(20);
                 e.Property(e => e.Role).HasDefaultValue(Domain.Enums.UserRole.User);
@@ -45,28 +46,22 @@ namespace On1Learn.Infrastructure.Data
                 e.Property(e => e.Title).IsRequired().HasMaxLength(200);
                 e.Property(e => e.Description).IsRequired().HasMaxLength(5000);
                 e.Property(e => e.Price).HasPrecision(18, 2);
+                e.Property(e => e.Area).HasPrecision(10, 2);
                 e.Property(e => e.Latitude).HasPrecision(10, 7);
                 e.Property(e => e.Longitude).HasPrecision(10, 7);
+                e.Property(e => e.City).IsRequired().HasMaxLength(100);
                 e.Property(e => e.District).IsRequired().HasMaxLength(100);
                 e.Property(e => e.Address).IsRequired().HasMaxLength(500);
-                e.HasOne(e => e.User).WithMany(u => u.Properties).HasForeignKey(e => e.UserId).OnDelete(DeleteBehavior.Restrict);
-                e.HasIndex(e => e.Type);
-                e.HasIndex(e => e.Status);
-                e.HasIndex(e => e.City);
-                e.HasIndex(e => e.Price);
-                e.HasIndex(e => e.IsFeatured);
-                e.HasIndex(e => e.IsPublished);
-                e.HasQueryFilter(e => !e.IsDeleted);
+                e.HasOne(e => e.User).WithMany(e => e.Properties).HasForeignKey(e => e.UserId).OnDelete(DeleteBehavior.Restrict);
             });
 
             modelBuilder.Entity<PropertyImage>(e =>
             {
                 e.Property(e => e.ImageUrl).IsRequired().HasMaxLength(500);
-                e.HasOne(e => e.Property).WithMany(e => e.Images).HasForeignKey(e => e.PropertyId).OnDelete(DeleteBehavior.Cascade);
+                e.HasOne(e => e.Property).WithMany(e => e.PropertyImages).HasForeignKey(e => e.PropertyId).OnDelete(DeleteBehavior.Cascade);
                 e.HasIndex(e => e.DisplayOrder);
                 e.HasQueryFilter(e => !e.IsDeleted);
             });
-
 
             modelBuilder.Entity<Favorite>(e =>
             {
@@ -74,19 +69,16 @@ namespace On1Learn.Infrastructure.Data
                 e.HasOne(e => e.User).WithMany(e => e.Favorites).HasForeignKey(e => e.UserId).OnDelete(DeleteBehavior.Cascade);
                 e.HasOne(e => e.Property).WithMany(e => e.Favorites).HasForeignKey(e => e.PropertyId).OnDelete(DeleteBehavior.Cascade);
 
-
                 e.HasQueryFilter(e => !e.IsDeleted);
             });
-
 
             modelBuilder.Entity<Payment>(e =>
             {
                 e.Property(e => e.Amount).HasPrecision(18, 2);
                 e.Property(e => e.PaymentMethod).IsRequired().HasMaxLength(50);
                 e.Property(e => e.Currency).HasDefaultValue("TRY").HasMaxLength(3);
-
                 e.HasOne(e => e.User).WithMany(e => e.Payments).HasForeignKey(e => e.UserId).OnDelete(DeleteBehavior.Restrict);
-                e.HasOne(e => e.Property).WithMany(p => p.Payments).HasForeignKey(e => e.PropertyId).OnDelete(DeleteBehavior.SetNull);
+                e.HasOne(e => e.Property).WithMany(e => e.Payments).HasForeignKey(e => e.PropertyId).OnDelete(DeleteBehavior.SetNull);
 
                 e.HasIndex(e => e.Status);
                 e.HasIndex(e => e.TransactionId);
@@ -97,41 +89,36 @@ namespace On1Learn.Infrastructure.Data
             {
                 e.Property(e => e.Name).IsRequired().HasMaxLength(100);
                 e.Property(e => e.Email).IsRequired().HasMaxLength(255);
-                e.Property(e => e.Subject).IsRequired().HasMaxLength(2000);
+                e.Property(e => e.Subject).IsRequired().HasMaxLength(200);
                 e.Property(e => e.Message).IsRequired().HasMaxLength(2000);
-                e.HasOne(e => e.User).WithMany(e => e.ContactMessages).HasForeignKey(e => e.UserId).OnDelete(DeleteBehavior.SetNull);
-
-                e.HasOne(e => e.Property).WithMany(e => e.ContactMessages).HasForeignKey(e => e.PropertyId).OnDelete(DeleteBehavior.SetNull);
+                e.HasOne(e => e.User).WithMany(e => e.Contacts).HasForeignKey(e => e.UserId).OnDelete(DeleteBehavior.SetNull);
+                e.HasOne(e => e.Property).WithMany(e => e.Contacts).HasForeignKey(e => e.PropertyId).OnDelete(DeleteBehavior.SetNull);
                 e.HasIndex(e => e.IsRead);
-                e.HasIndex(e => e.IsReplied);
+                e.HasIndex(e => e.IsRepliead);
                 e.HasQueryFilter(e => !e.IsDeleted);
             });
 
-            
-
-            
 
 
 
         }
 
-        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+
+        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken)
         {
             var entries = ChangeTracker.Entries<BaseEntity>();
-
-            foreach (var entry in entries)
+            foreach(var entry in entries)
             {
-                if (entry.State == EntityState.Added)
+                if(entry.State == EntityState.Added)
                 {
                     entry.Entity.CreatedAt = DateTime.UtcNow;
                 }
 
-                if (entry.State == EntityState.Modified)
+                if(entry.State == EntityState.Modified)
                 {
                     entry.Entity.UpdatedAt = DateTime.UtcNow;
                 }
-
-                if (entry.State == EntityState.Deleted)
+                if(entry.State == EntityState.Deleted)
                 {
                     entry.State = EntityState.Modified;
                     entry.Entity.IsDeleted = true;

@@ -8,12 +8,11 @@ namespace On1Learn.Domain.Enums
 {
     public enum PropertyType
     {
-        Apartment = 1,
-        House = 2,
-        Villa = 3,
-        Office = 4,
-        Land = 5,
-        Commercial = 6,
-        Farm = 7
+       ForSale =1,
+       ForRent = 2,
+       Sold = 3,
+       Rented = 4,
+       Pending = 5,
+       Inactive = 6
     }
 }
